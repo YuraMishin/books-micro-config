@@ -11,6 +11,7 @@ spring:
         predicates:
         - Path=/
         - Method=GET
+
 eureka:
   client:
     service-url:
