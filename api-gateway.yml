@@ -6,10 +6,10 @@ spring:
           enabled: true
           lower-case-service-id: true
       routes:
-      - id: client1
-        uri: lb://eclient1
+      - id: books
+        uri: lb://books
         predicates:
-        - Path=/
+        - Path=/books
         - Method=GET
 
 eureka:
